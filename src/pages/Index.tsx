@@ -183,7 +183,7 @@ const Index = () => {
               <div className="pricing-card reveal">
                 <div className="pricing-category">Starter</div>
                 <h3>Starter Website</h3>
-                <div className="price">From R2,000</div>
+                <div className="price">From R3,000</div>
                 <ul className="pricing-features">
                   <li>Up to 5 pages</li><li>Responsive design</li><li>Contact form</li><li>Basic SEO</li>
                 </ul>
@@ -193,7 +193,7 @@ const Index = () => {
                 <div className="pricing-ribbon">Most Popular</div>
                 <div className="pricing-category">Business</div>
                 <h3>Business Website</h3>
-                <div className="price">From R3,500</div>
+                <div className="price">From R4,500</div>
                 <ul className="pricing-features">
                   <li>8–10 pages</li><li>Custom layout & UI/UX</li><li>Responsive design</li><li>Basic SEO</li><li>Content management</li>
                 </ul>
@@ -202,7 +202,7 @@ const Index = () => {
               <div className="pricing-card reveal reveal-delay-2">
                 <div className="pricing-category">Professional</div>
                 <h3>Professional Website</h3>
-                <div className="price">From R5,000</div>
+                <div className="price">From R6,000</div>
                 <ul className="pricing-features">
                   <li>12–15 pages</li><li>Fully custom design</li><li>Conversion-focused layout</li><li>Basic SEO</li><li>Advanced features</li>
                 </ul>
