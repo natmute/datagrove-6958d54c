@@ -148,7 +148,7 @@ const Index = () => {
               { icon: <Globe size={26} />, title: 'Website Design & Development', desc: 'Professional, responsive websites designed to convert visitors into customers. From simple landing pages to complex web applications.' },
               { icon: <Smartphone size={26} />, title: 'Android App Development', desc: 'Custom Android applications built using Java, XML, and Firebase. Intuitive mobile experiences that engage users.' },
               { icon: <Code2 size={26} />, title: 'Custom Software Development', desc: 'Bespoke software solutions designed around your unique business processes, including automation tools and management systems.' },
-              { icon: <Search size={26} />, title: 'SEO Services', desc: 'Improve your online visibility through strategic search engine optimization. Rank higher and attract more qualified traffic.' },
+              { icon: <Search size={26} />, title: 'Social Media Management', desc: 'We manage your brand across Instagram, Facebook, TikTok, and WhatsApp — handling content creation, scheduling, community engagement, and paid ads so you can focus on running your business.' },
               { icon: <Palette size={26} />, title: 'Digital Design', desc: 'Professional digital materials including catalogues, calendars, flyers, and marketing assets that elevate your brand.' },
             ].map((s, i) => (
               <div className={`service-card reveal reveal-delay-${(i % 4) + 1}`} key={i}>
@@ -171,7 +171,7 @@ const Index = () => {
 
           <div className="pricing-tabs">
             <button className="pricing-tab active" data-tab="websites">Websites</button>
-            <button className="pricing-tab" data-tab="seo">SEO</button>
+            <button className="pricing-tab" data-tab="smm">Social Media Management</button>
             <button className="pricing-tab" data-tab="apps">Android Apps</button>
             <button className="pricing-tab" data-tab="software">Custom Software</button>
             <button className="pricing-tab" data-tab="design">Digital Design</button>
@@ -211,26 +211,49 @@ const Index = () => {
             </div>
           </div>
 
-          {/* SEO */}
-          <div className="pricing-panel" data-panel="seo">
+          {/* SMM */}
+          <div className="pricing-panel" data-panel="smm">
             <div className="pricing-grid">
               <div className="pricing-card">
-                <div className="pricing-category">One-Time</div>
-                <h3>SEO Setup</h3>
-                <div className="price">From R1,000</div>
+                <div className="pricing-category">Starter</div>
+                <h3>Starter Package</h3>
+                <div className="price">From R3000/month</div>
                 <ul className="pricing-features">
-                  <li>Initial SEO audit</li><li>Keyword research</li><li>Meta tags optimization</li><li>Basic technical SEO</li>
+                  <li>1 platform</li>
+                  <li>8 feed posts/month</li>
+                  <li>2 reels/month</li>
+                  <li>Audience engagement</li>
+                  <li>Monthly content calendar</li>
                 </ul>
                 <a href="#contact" className="btn-primary" style={{ width: '100%', textAlign: 'center' }}>Get Started</a>
               </div>
               <div className="pricing-card">
-                <div className="pricing-category">Monthly</div>
-                <h3>Ongoing SEO Management</h3>
-                <div className="price">R500/month</div>
+                <div className="pricing-category">Most Popular</div>
+                <h3>Growth Package</h3>
+                <div className="price">R5500/month</div>
                 <ul className="pricing-features">
-                  <li>Continuous optimization</li><li>Content updates</li><li>Performance monitoring</li><li>Monthly reports</li>
+                  <li>2 platforms</li>
+                  <li>12 feed posts/month</li>
+                  <li>4 reels/month</li>
+                  <li>Audience engagement</li>
+                  <li>3 sponsored ads</li>
+                  <li>Monthly performance report</li>
                 </ul>
                 <a href="#contact" className="btn-primary" style={{ width: '100%', textAlign: 'center' }}>Get Started</a>
+              </div>
+              <div className="pricing-card">
+                <div className="pricing-category">Premium</div>
+                <h3>Premium Package</h3>
+                <div className="price">R9,000/month</div>
+                <ul className="pricing-features">
+                  <li>3 platforms</li>
+                  <li>20 feed posts/month</li>
+                  <li>8 reels/month</li>
+                  <li>Audience engagement</li>
+                  <li>8 sponsored ads</li>
+                  <li>Strategy call + monthly report</li>
+                </ul>
+                <a href="#contact" className="btn-primary" style={{width: '100%', textAlign: 'center' }}>Get Started</a>
               </div>
             </div>
           </div>
@@ -420,7 +443,7 @@ const Index = () => {
                   <option value="Website Design & Development">Website Design & Development</option>
                   <option value="Android App Development">Android App Development</option>
                   <option value="Custom Software Development">Custom Software Development</option>
-                  <option value="SEO Services">SEO Services</option>
+                  <option value="Social Media Management">Social Media Management</option>
                   <option value="Digital Design">Digital Design</option>
                   <option value="Other">Other</option>
                 </select>
@@ -494,7 +517,7 @@ const Index = () => {
             <a href="#services">Website Development</a>
             <a href="#services">Android Apps</a>
             <a href="#services">Custom Software</a>
-            <a href="#services">SEO Services</a>
+            <a href="#services">Social Media Management</a>
             <a href="#services">Digital Design</a>
           </div>
           <div className="footer-section">
