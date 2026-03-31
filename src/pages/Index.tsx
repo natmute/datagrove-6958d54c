@@ -244,7 +244,7 @@ const Index = () => {
               <div className="pricing-card">
                 <div className="pricing-category">Premium</div>
                 <h3>Premium Package</h3>
-                <div className="price">R9,000/month</div>
+                <div className="price">From R9,000/month</div>
                 <ul className="pricing-features">
                   <li>3 platforms</li>
                   <li>20 feed posts/month</li>
