@@ -230,7 +230,7 @@ const Index = () => {
               <div className="pricing-card">
                 <div className="pricing-category">Most Popular</div>
                 <h3>Growth Package</h3>
-                <div className="price">R5500/month</div>
+                <div className="price">From R5,500/month</div>
                 <ul className="pricing-features">
                   <li>2 platforms</li>
                   <li>12 feed posts/month</li>
