@@ -148,7 +148,7 @@ const Index = () => {
               { icon: <Globe size={26} />, title: 'Website Design & Development', desc: 'Professional, responsive websites designed to convert visitors into customers. From simple landing pages to complex web applications.' },
               { icon: <Smartphone size={26} />, title: 'Android App Development', desc: 'Custom Android applications built using Java, XML, and Firebase. Intuitive mobile experiences that engage users.' },
               { icon: <Code2 size={26} />, title: 'Custom Software Development', desc: 'Bespoke software solutions designed around your unique business processes, including automation tools and management systems.' },
-              { icon: <Search size={26} />, title: 'Social Media Management', desc: 'We manage your brand across Instagram, Facebook, TikTok, and WhatsApp — handling content creation, scheduling, community engagement, and paid ads so you can focus on running your business.' },
+              { icon: <Megaphone size={26} />, title: 'Social Media Management', desc: 'We manage your brand across Instagram, Facebook, TikTok, and WhatsApp — handling content creation, scheduling, community engagement, and paid ads so you can focus on running your business.' },
               { icon: <Palette size={26} />, title: 'Digital Design', desc: 'Professional digital materials including catalogues, calendars, flyers, and marketing assets that elevate your brand.' },
             ].map((s, i) => (
               <div className={`service-card reveal reveal-delay-${(i % 4) + 1}`} key={i}>
