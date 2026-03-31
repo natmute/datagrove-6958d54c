@@ -20,7 +20,7 @@ import fs2Img from '@/assets/FS2.jpg';
 import fs3Img from '@/assets/FS3.jpg';
 import {
   Target, Gem, Rocket, Handshake,
-  Globe, Smartphone, Code2, Search, Palette,
+  Globe, Smartphone, Code2, Megaphone, Palette,
   MapPin, Mail, Phone, Clock, CheckCircle2,
   ArrowUp, Linkedin
 } from 'lucide-react';
