@@ -20,7 +20,7 @@ import fs2Img from '@/assets/FS2.jpg';
 import fs3Img from '@/assets/FS3.jpg';
 import {
   Target, Gem, Rocket, Handshake,
-  Globe, Smartphone, Code2, Search, Palette,
+  Globe, Smartphone, Code2, Megaphone, Palette,
   MapPin, Mail, Phone, Clock, CheckCircle2,
   ArrowUp, Linkedin
 } from 'lucide-react';
@@ -148,7 +148,7 @@ const Index = () => {
               { icon: <Globe size={26} />, title: 'Website Design & Development', desc: 'Professional, responsive websites designed to convert visitors into customers. From simple landing pages to complex web applications.' },
               { icon: <Smartphone size={26} />, title: 'Android App Development', desc: 'Custom Android applications built using Java, XML, and Firebase. Intuitive mobile experiences that engage users.' },
               { icon: <Code2 size={26} />, title: 'Custom Software Development', desc: 'Bespoke software solutions designed around your unique business processes, including automation tools and management systems.' },
-              { icon: <Search size={26} />, title: 'Social Media Management', desc: 'We manage your brand across Instagram, Facebook, TikTok, and WhatsApp — handling content creation, scheduling, community engagement, and paid ads so you can focus on running your business.' },
+              { icon: <Megaphone size={26} />, title: 'Social Media Management', desc: 'We manage your brand across Instagram, Facebook, TikTok, and WhatsApp — handling content creation, scheduling, community engagement, and paid ads so you can focus on running your business.' },
               { icon: <Palette size={26} />, title: 'Digital Design', desc: 'Professional digital materials including catalogues, calendars, flyers, and marketing assets that elevate your brand.' },
             ].map((s, i) => (
               <div className={`service-card reveal reveal-delay-${(i % 4) + 1}`} key={i}>
@@ -230,7 +230,7 @@ const Index = () => {
               <div className="pricing-card">
                 <div className="pricing-category">Most Popular</div>
                 <h3>Growth Package</h3>
-                <div className="price">R5500/month</div>
+                <div className="price">From R5,500/month</div>
                 <ul className="pricing-features">
                   <li>2 platforms</li>
                   <li>12 feed posts/month</li>
@@ -244,7 +244,7 @@ const Index = () => {
               <div className="pricing-card">
                 <div className="pricing-category">Premium</div>
                 <h3>Premium Package</h3>
-                <div className="price">R9,000/month</div>
+                <div className="price">From R9,000/month</div>
                 <ul className="pricing-features">
                   <li>3 platforms</li>
                   <li>20 feed posts/month</li>
