@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { useForm, ValidationError } from '@formspree/react';
 import '../styles/datagrove.css';
 import { useDatagroveEffects } from '../hooks/useDatagroveEffects';
 import aboutImage from '@/assets/about-illustration.jpg';
@@ -29,6 +30,7 @@ const Index = () => {
   useDatagroveEffects();
   const [selectedService, setSelectedService] = useState('');
   const [otherService, setOtherService] = useState('');
+  const [state, handleSubmit] = useForm("mqeglgqn");
 
   return (
     <div className="dg-body" style={{ fontFamily: "'Manrope', sans-serif", background: 'var(--dark-bg)', color: 'var(--text-primary)' }}>
@@ -421,7 +423,7 @@ const Index = () => {
         <div className="contact-container">
           <div className="contact-form reveal">
             <h3>Send a Message</h3>
-            <form id="contactForm">
+            <form id="contactForm" onSubmit={handleSubmit}>
               <div className="form-group">
                 <label htmlFor="name">Name</label>
                 <input type="text" id="name" name="name" required />
@@ -466,7 +468,15 @@ const Index = () => {
                 <label htmlFor="message">Message</label>
                 <textarea id="message" name="message" required></textarea>
               </div>
-              <button type="submit" className="btn-primary" style={{ width: '100%' }}>Send Message</button>
+              <button type="submit" className="btn-primary" style={{ width: '100%' }} disabled={state.submitting}>
+                {state.submitting ? 'Sending...' : 'Send Message'}
+              </button>
+
+              {state.succeeded && (
+                <p style={{ color: 'green', marginTop: '1rem' }}>
+                  ✅ Message sent! We'll get back to you within 24 hours.
+                </p>
+              )}
             </form>
           </div>
           <div className="contact-info reveal reveal-delay-2">

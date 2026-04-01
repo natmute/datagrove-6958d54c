@@ -179,24 +179,6 @@ export function useDatagroveEffects() {
       });
     });
 
-    // === Contact form ===
-    const contactForm = document.getElementById('contactForm') as HTMLFormElement;
-    if (contactForm) {
-      contactForm.addEventListener('submit', (e) => {
-        e.preventDefault();
-        const formData = new FormData(contactForm);
-        const name = formData.get('name');
-        const email = formData.get('email');
-        const service = formData.get('service');
-        const otherService = formData.get('otherService');
-        const finalService = service === 'Other' && otherService ? otherService : service;
-        const message = formData.get('message');
-        const mailtoLink = `mailto:nataliemutebuka@gmail.com?subject=New Quote Request from ${name}&body=Name: ${name}%0D%0AEmail: ${email}%0D%0AService: ${finalService}%0D%0A%0D%0AMessage:%0D%0A${message}`;
-        window.location.href = mailtoLink;
-        contactForm.reset();
-      });
-    }
-
     // === Testimonial carousel ===
     const track = document.querySelector('.testimonials-track') as HTMLElement;
     const dots = document.querySelectorAll('.testimonial-dot');
