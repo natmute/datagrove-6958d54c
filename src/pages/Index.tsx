@@ -498,8 +498,11 @@ const Index = () => {
             <h3>DATAGROVE</h3>
             <p>Smart digital solutions for growing businesses. Based in Johannesburg, serving clients across South Africa.</p>
             <div className="footer-social">
-              <a href="https://www.linkedin.com/in/natalie-mutebuka-9a0a47250" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
-                <Linkedin size={18} />
+              <a href="mailto:info@datagrove.co.za" aria-label="Email">
+                <Mail size={18} />
+              </a>
+              <a href="https://instagram.com/datagrove_tech" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                <Instagram size={18} />
               </a>
             </div>
           </div>
@@ -523,8 +526,8 @@ const Index = () => {
           <div className="footer-section">
             <h3>Contact Info</h3>
             <p>Johannesburg, South Africa</p>
-            <a href="mailto:nataliemutebuka@gmail.com">nataliemutebuka@gmail.com</a>
-            <a href="tel:+27638335128">+27 63 833 5128</a>
+            <a href="mailto:info@datagrove.co.za">info@datagrove.co.za</a>
+            <a href="https://instagram.com/datagrove_tech" target="_blank" rel="noopener noreferrer">@datagrove_tech</a>
           </div>
         </div>
         <div className="footer-bottom">
