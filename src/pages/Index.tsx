@@ -473,8 +473,8 @@ const Index = () => {
             <h3>Get In Touch</h3>
             {[
               { icon: <MapPin size={20} />, title: 'Location', content: <p>Johannesburg, South Africa</p> },
-              { icon: <Mail size={20} />, title: 'Email', content: <a href="mailto:nataliemutebuka@gmail.com">nataliemutebuka@gmail.com</a> },
-              { icon: <Phone size={20} />, title: 'Phone / WhatsApp', content: <a href="tel:+27638335128">+27 63 833 5128</a> },
+              { icon: <Mail size={20} />, title: 'Email', content: <a href="mailto:info@datagrove.co.za">info@datagrove.co.za</a> },
+              { icon: <Instagram size={20} />, title: 'Instagram', content: <a href="https://instagram.com/datagrove_tech" target="_blank" rel="noopener noreferrer">@datagrove_tech</a> },
               { icon: <Clock size={20} />, title: 'Response Time', content: <p>Within 24 hours</p> },
               { icon: <CheckCircle2 size={20} />, title: 'Availability', content: <p>Open for new projects and consultations</p> },
             ].map((c, i) => (
