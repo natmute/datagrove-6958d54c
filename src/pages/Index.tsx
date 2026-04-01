@@ -21,8 +21,8 @@ import fs3Img from '@/assets/FS3.jpg';
 import {
   Target, Gem, Rocket, Handshake,
   Globe, Smartphone, Code2, Megaphone, Palette,
-  MapPin, Mail, Phone, Clock, CheckCircle2,
-  ArrowUp, Linkedin
+  MapPin, Mail, Clock, CheckCircle2,
+  ArrowUp, Instagram
 } from 'lucide-react';
 
 const Index = () => {
