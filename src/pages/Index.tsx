@@ -219,7 +219,7 @@ const Index = () => {
               <div className="pricing-card">
                 <div className="pricing-category">Starter</div>
                 <h3>Starter Package</h3>
-                <div className="price">From R3000/month</div>
+                <div className="price">From R2,500/month</div>
                 <ul className="pricing-features">
                   <li>1 platform</li>
                   <li>8 feed posts/month</li>
@@ -232,7 +232,7 @@ const Index = () => {
               <div className="pricing-card">
                 <div className="pricing-category">Most Popular</div>
                 <h3>Growth Package</h3>
-                <div className="price">From R5,500/month</div>
+                <div className="price">From R4,000/month</div>
                 <ul className="pricing-features">
                   <li>2 platforms</li>
                   <li>12 feed posts/month</li>
@@ -246,7 +246,7 @@ const Index = () => {
               <div className="pricing-card">
                 <div className="pricing-category">Premium</div>
                 <h3>Premium Package</h3>
-                <div className="price">From R9,000/month</div>
+                <div className="price">From R5,500/month</div>
                 <ul className="pricing-features">
                   <li>3 platforms</li>
                   <li>20 feed posts/month</li>
