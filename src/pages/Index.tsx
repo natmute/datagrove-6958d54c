@@ -362,7 +362,7 @@ const Index = () => {
             { title: 'Adegi Consulting Website', desc: 'Designed and developed a professional website for Adegi Consulting, a training and business development company based in Pretoria.', img: adegiWebsiteImg, link: 'https://adegi.co.za/', cat: 'web' },
             { title: 'Career Guidance Web App', desc: 'A career guidance web application that helps high school students discover suitable career paths through an interactive quiz system.', img: careerCompassImg, link: 'https://career-compass-za.web.app/', cat: 'web' },
             { title: 'E-commerce Business Website', desc: 'A modern website for a small gift business, creating an engaging online storefront that showcases products.', img: giftHavenImg, link: 'https://gift-haven-business.netlify.app/', cat: 'web' },
-            { title: 'WJ Consultancy Website', desc: 'A sleek, premium website for WJ Consultancy, an ERP solutions and automation advisory firm.', img: wjImg, link: 'https://wjconsultancy.vercel.app/', cat: 'web' },
+            { title: 'WJ Consultancy Website', desc: 'A sleek, premium website for WJ Consultancy, an ERP solutions and automation advisory firm.', img: wjImg, link: 'https://wjconsultancy.co.za/', cat: 'web' },
           ].map((p, i) => (
             <div className={`project-card reveal reveal-delay-${(i % 4) + 1}`} data-category={p.cat} key={`web-${i}`}>
               <div className="project-image">
